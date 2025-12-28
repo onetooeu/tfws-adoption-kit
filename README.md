@@ -32,3 +32,4 @@ It provides:
 ```bash
 bash scripts/verify-domain.sh example.com
 
+
