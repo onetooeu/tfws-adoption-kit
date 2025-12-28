@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "site": "https://example.com",
+  "published_at_utc": "2025-01-01T00:00:00Z",
+
+  "purpose": [
+    "Trust signal discovery",
+    "Policy and key reference",
+    "Non-authoritative adoption declaration"
+  ],
+
+  "endpoints": {
+    "llms_txt": "/.well-known/llms.txt",
+    "key_history": "/.well-known/key-history.json",
+    "adoption_manifest": "/.well-known/tfws-adoption.json"
+  },
+
+  "policies": {
+    "security": "https://example.com/security",
+    "privacy": "https://example.com/privacy"
+  },
+
+  "contact": {
+    "security": "security@example.com",
+    "general": "contact@example.com"
+  },
+
+  "notes": [
+    "This is a template file.",
+    "Replace example.com with your own domain.",
+    "Publishing this file does not grant authority.",
+    "Trust signals are self-declared and independently verifiable."
+  ]
+}
