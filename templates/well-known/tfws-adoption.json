@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "site": "https://example.com",
+  "published_at_utc": "2025-01-01T00:00:00Z",
+
+  "adopted": [
+    "tfws-v2",
+    "onetoo.eu-compatible"
+  ],
+
+  "contacts": {
+    "security": "security@example.com",
+    "general": "contact@example.com"
+  },
+
+  "compatibility": {
+    "ai_trust_hub": "https://example.com/.well-known/ai-trust-hub.json",
+    "key_history": "https://example.com/.well-known/key-history.json",
+    "llms_txt": "https://example.com/.well-known/llms.txt"
+  },
+
+  "disclaimer": "This is a self-declared, non-authoritative adoption manifest. It does not grant certification or authority.",
+
+  "notes": [
+    "Template file. Replace example.com and contacts.",
+    "You may remove this file if you do not want to publish an adoption manifest."
+  ]
+}
