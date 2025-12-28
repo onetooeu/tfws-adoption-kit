@@ -1,3 +1,5 @@
+![Stable](https://img.shields.io/badge/status-stable_v0.1.0-brightgreen)
+
 # TFWS Adoption Kit (onetooeu/tfws-adoption-kit)
 
 Static, self-service toolkit to adopt **Trust-First Web Standard (TFWS v2)** signals on your own domain.
@@ -29,3 +31,4 @@ It provides:
 
 ```bash
 bash scripts/verify-domain.sh example.com
+
