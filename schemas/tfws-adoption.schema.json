@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/tfws-adoption.schema.json",
+  "title": "TFWS Adoption Manifest",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["version", "site", "published_at_utc", "adopted", "disclaimer"],
+  "properties": {
+    "version": { "type": "string", "minLength": 1 },
+    "site": { "type": "string", "minLength": 1 },
+    "published_at_utc": { "type": "string", "minLength": 1 },
+
+    "adopted": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+
+    "contacts": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "security": { "type": "string" },
+        "general": { "type": "string" }
+      }
+    },
+
+    "compatibility": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "ai_trust_hub": { "type": "string" },
+        "key_history": { "type": "string" },
+        "llms_txt": { "type": "string" }
+      }
+    },
+
+    "disclaimer": { "type": "string", "minLength": 1 },
+
+    "notes": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}
