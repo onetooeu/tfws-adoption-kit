@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "site": "https://example.com",
+  "published_at_utc": "2025-01-01T00:00:00Z",
+
+  "keys": [
+    {
+      "id": "ed25519-2025-01",
+      "type": "ed25519",
+      "purpose": ["signing"],
+      "status": "active",
+
+      "public_key": "REPLACE_WITH_YOUR_PUBLIC_KEY_OR_REFERENCE",
+      "fingerprint": "OPTIONAL_FINGERPRINT",
+
+      "introduced_at_utc": "2025-01-01T00:00:00Z",
+      "expires_at_utc": null,
+
+      "notes": [
+        "Template key entry.",
+        "Replace with your actual public key material.",
+        "Private keys MUST NOT be published."
+      ]
+    }
+  ],
+
+  "policy": {
+    "rotation": "Keys may be rotated at any time by publishing an updated key-history.json.",
+    "revocation": "Compromised keys are marked as revoked and remain listed for auditability.",
+    "authority": "Key publication is self-declared and non-authoritative."
+  }
+}
