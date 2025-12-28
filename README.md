@@ -8,19 +8,23 @@ It provides:
 - Simple **verification scripts**
 - A minimal, optional adoption manifest (non-authoritative)
 
+---
+
 ## What this is (and is not)
 
 ✅ Helps you publish verifiable trust signals **without asking anyone for permission**  
-✅ Documentation + templates + offline checks  
+✅ Documentation, templates, and offline checks  
 ❌ Not a certification authority  
 ❌ Not a central registry  
 ❌ No runtime service, no database, no login  
+
+---
 
 ## Quickstart
 
 1) Copy templates from `templates/well-known/` into your site’s `/.well-known/`  
 2) Replace placeholders (domain, contacts, keys)  
-3) Publish  
+3) Publish your site  
 4) Verify:
 
 ```bash
