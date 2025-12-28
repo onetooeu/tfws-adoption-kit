@@ -1,0 +1,23 @@
+# llms.txt
+# Purpose:
+# Entry point for LLMs, AI agents, and automated crawlers.
+# This file provides human- and machine-readable pointers
+# to trust, policy, and verification resources.
+
+site: https://example.com
+contact: security@example.com
+
+trust:
+  ai_trust_hub: https://example.com/.well-known/ai-trust-hub.json
+  key_history: https://example.com/.well-known/key-history.json
+  adoption_manifest: https://example.com/.well-known/tfws-adoption.json
+
+policy:
+  security: https://example.com/security
+  privacy: https://example.com/privacy
+
+notes:
+  - This is a template file.
+  - Replace example.com with your own domain.
+  - Publishing this file is voluntary but recommended.
+  - No central authority is required to use this format.
