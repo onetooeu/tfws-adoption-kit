@@ -1,0 +1,47 @@
+{
+  "project": "TFWS Adoption Kit",
+  "version": "0.1.0",
+  "release_tag": "v0.1.0",
+  "status": "stable",
+  "published": true,
+
+  "purpose": [
+    "Enable self-service adoption of TFWS v2",
+    "Provide static trust signal templates",
+    "Avoid central authority and registration"
+  ],
+
+  "includes": {
+    "templates": [
+      "llms.txt",
+      "ai-trust-hub.json",
+      "key-history.json",
+      "tfws-adoption.json"
+    ],
+    "scripts": [
+      "verify-domain.sh",
+      "fetch-and-validate.sh"
+    ],
+    "schemas": [
+      "tfws-adoption.schema.json"
+    ],
+    "guides": [
+      "quickstart",
+      "cloudflare-pages",
+      "github-pages",
+      "netlify",
+      "nginx"
+    ]
+  },
+
+  "design_principles": [
+    "trust is published, not granted",
+    "self-declared and verifiable",
+    "no runtime services",
+    "no tracking",
+    "no central authority"
+  ],
+
+  "license": "CC0",
+  "release_url": "https://github.com/onetooeu/tfws-adoption-kit/releases/tag/v0.1.0"
+}
